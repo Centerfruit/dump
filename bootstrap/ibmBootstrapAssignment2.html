@@ -1,0 +1,59 @@
+ <!-- ibm bootstrap assignment-2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap 4</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    .body-font {
+      color: green; 
+      font-family: 'Courier New';
+      font-weight: 600;
+      font-size: larger;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Step 1: Add a div -->
+  <div class="container">
+
+    <!-- Step 2: Write some contents -->
+    <h1>Assignment - 2</h1>
+    <p class="fw-bold">Click button to open Modal</p>
+
+    <!-- Step 3: Add a link element, add data-model="modal", add data-target with some id here -->
+    <a href="#" data-toggle="modal" data-model="modal" data-target="#myModal" > Open Modal</a>
+
+    <!-- Step 5: Add one more div, give class modal, id should match the value of data-target that you gave in previous div element -->
+    <div class="modal" id="myModal">
+
+      <!-- Step 6: Add one more div, add class modal-dialog -->
+      <div class="modal-dialog">
+
+        <!-- Step 7: Add one more div, add class modal-content -->
+        <div class="modal-content">
+
+          <!-- Step 8: Write some content here -->
+          <div class="modal-header">
+            <h4 class="modal-title">Bootstrap {B} </h4>
+          </div>
+          <div class="modal-body">
+            <p class="fw-bold body-font">Build fast, responsive sites with Bootstrap
+Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins..</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
