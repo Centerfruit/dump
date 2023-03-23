@@ -38,7 +38,8 @@
   background-size: cover;
   background-position: center;
 }
+
 .blog-btn:hover {
-  background-color: rgb(36, 151, 151) !important;
+  background-color: rgb(35, 152, 151) !important;
   border: none !important; 
 }
